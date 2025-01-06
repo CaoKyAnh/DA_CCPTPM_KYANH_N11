@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "460817987224",
+    "project_id": "final-project-e5878",
+    "storage_bucket": "final-project-e5878.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460817987224:android:a583cfec3c678a033902ed",
+        "android_client_info": {
+          "package_name": "com.example.f"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtMqO8lRFiZVNQNa2fS8dSiAn8Af_0TQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460817987224:android:e37e76eb72981e6a3902ed",
+        "android_client_info": {
+          "package_name": "com.example.final_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtMqO8lRFiZVNQNa2fS8dSiAn8Af_0TQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460817987224:android:c949f5e8ac99ab393902ed",
+        "android_client_info": {
+          "package_name": "com.example.final_project_rent_moto_fe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtMqO8lRFiZVNQNa2fS8dSiAn8Af_0TQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
