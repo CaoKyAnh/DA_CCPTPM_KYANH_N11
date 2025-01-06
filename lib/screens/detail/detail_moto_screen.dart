@@ -4,6 +4,7 @@ import 'package:final_project_rent_moto_fe/screens/dashboard.dart';
 import 'package:final_project_rent_moto_fe/screens/booking/future_bookings_widget.dart';
 
 import 'package:final_project_rent_moto_fe/screens/map/location_of-moto.dart';
+import 'package:final_project_rent_moto_fe/screens/messages/messages_sender.dart';
 import 'package:final_project_rent_moto_fe/services/MotorCycle/get_user_data_service.dart';
 import 'package:final_project_rent_moto_fe/services/bookingMoto/addbookingService.dart';
 import 'package:final_project_rent_moto_fe/services/fcm/fcm_service.dart';
@@ -694,6 +695,17 @@ class _DetailMotoScreenState extends State<DetailMotoScreen> {
                             try {
                               final senderName =
                                   await UserService().getSenderName(userAEmail);
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => MessagesSender(
+                                    email: userAEmail,
+                                    senderName: senderName,
+                                    userAEmail: userAEmail,
+                                    userBEmail: userBEmail,
+                                  ),
+                                ),
+                              );
                             } catch (e) {
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
